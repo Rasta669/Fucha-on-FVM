@@ -1,4 +1,5 @@
-task("create-nft2", "mints fuchanft of breed fuchaRhino").addParam("contract", "The FuchaNft address").addParam("toaccount", "The account to mint to")
+task("create-nft2", "mints fuchanft of breed fuchaRhino").addParam("contract", "The FuchaNft address")
+    // .addParam("toaccount", "The account to mint to")
     // .addParam("breedIndex", "The fuchaBin type,you want to mint, starts with index 0, as spexified in fuchaContract(breed)")
     .setAction(async (taskArgs) => {
         //store taskargs as useable variables
@@ -21,7 +22,7 @@ task("create-nft2", "mints fuchanft of breed fuchaRhino").addParam("contract", "
         //this is what you will call to interact with the deployed contract
         const fucha = await fucha_.attach(contractAddr)
         const fee = await fucha.getMintFee()
-        console.log("Minting fuchanft from collection:", contractAddr, "to address", toAccount)
+        console.log("Minting fuchanft from collection:", contractAddr, "to address", wallet)
 
         //send transaction to call the sendCoin() method
         const transaction = await fucha.createNft(2, { value: fee.toString() })

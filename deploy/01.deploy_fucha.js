@@ -14,7 +14,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
         args = [networkConfig[chainId]["mintFee"]]
         fucha_ = await deploy("FuchaNft", { from: deployer, log: true, args: args })
         // await fucha.deployed()
-        log("Fucha deployed!!")
+        log("Fucha deployed to by", deployer)
         log("-------------------------------")
 
         log("minting fuchabin nft")
@@ -39,11 +39,11 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
         // args = [networkConfig[chainId]["mintFee"]]
         // const fucha = await deploy("FuchaNft", { from: WALLET, args: args, log: true })
         // log("fucha deployed to>>>", fucha.address)
-        log("minting fuchabin nft")
-        const create_tx = await fucha.createNft([2], { value: ethers.utils.parseUnits('101'), gasLimit: 400000 })
-        const Id = await fucha.tokenCounter() - 1
-        const breed = await fucha.tokenIdToBreed(Id)
-        log("Created fuchaNft of breed:", breed)
+        // log("minting fuchabin nft")
+        // const create_tx = await fucha.createNft([2], { value: ethers.utils.parseUnits('101'), gasLimit: 400000 })
+        // const Id = await fucha.tokenCounter() - 1
+        // const breed = await fucha.tokenIdToBreed(Id)
+        // log("Created fuchaNft of breed:", breed)
         // fucha = fucha_.attach(Fucha.address)
 
     }

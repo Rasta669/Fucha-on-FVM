@@ -15,7 +15,7 @@ contract FuchaNft is ERC721URIStorage, Ownable, EIP712, ERC721Votes {
     uint256 public tokenCounter;
     address fucha_owner;
     address[] public fucha_owners;
-    string[4] public breed = [
+    string[] public breed = [
         "fuchaHippo",
         "fuchaSimba",
         "fuchaRhino",
@@ -24,6 +24,7 @@ contract FuchaNft is ERC721URIStorage, Ownable, EIP712, ERC721Votes {
     uint256 mintFee;
     mapping(uint256 => string) public tokenIdToBreed;
     event breedAssigned(string indexed breed, uint256);
+    event amountWithdrawn(uint256 amount, address indexed toAddress);
 
     constructor(uint256 _mintFee)
         ERC721("fuchaNft", "FCB")
@@ -52,17 +53,23 @@ contract FuchaNft is ERC721URIStorage, Ownable, EIP712, ERC721Votes {
     }
 
     // this fx checks against replicates of the same owner address in the fucha_owners array
-    function checkOwner(address nft_owner) public view returns (uint256) {
-        uint256 fuchaIndex;
-        for (uint256 i; i < fucha_owners.length; i++) {
-            if (fucha_owners[i] == nft_owner) {
+    function checkOwner(address nft_owner)
+        public
+        view
+        returns (uint256 repetitionIndex)
+    {
+        for (
+            uint256 fuchaIndex;
+            fuchaIndex < fucha_owners.length;
+            fuchaIndex++
+        ) {
+            if (fuchaIndex == 0 && (fucha_owners[fuchaIndex] == nft_owner)) {
                 fuchaIndex++;
             }
             if (fuchaIndex == 1) {
-                break;
+                return 1;
             }
         }
-        return fuchaIndex;
     }
 
     // The following functions are overrides required by Solidity.
@@ -102,5 +109,19 @@ contract FuchaNft is ERC721URIStorage, Ownable, EIP712, ERC721Votes {
 
     function getMintFee() public view returns (uint256) {
         return mintFee;
+    }
+
+    function withdraw(uint256 _amount, address toAddress) public onlyOwner {
+        require(
+            (_amount < address(this).balance),
+            "You are trying to withdraw more than the contracts balance"
+        );
+        payable(toAddress).transfer(_amount);
+        emit amountWithdrawn(_amount, toAddress);
+    }
+
+    function getRecentTokenId() public view returns (uint256) {
+        uint256 tokenId = tokenCounter - 1;
+        return tokenId;
     }
 }

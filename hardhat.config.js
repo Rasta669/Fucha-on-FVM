@@ -13,6 +13,10 @@ const PRIVATE_KEY = `${process.env.PRIVATE_KEY}`
 module.exports = {
   defaultNetwork: 'hardhat',
   networks: {
+    hardhat: {
+      // accounts: []
+      saveDeployments: true
+    },
     hyperspace: {
       chainId: 3141,
       url: "https://api.hyperspace.node.glif.io/rpc/v1",
