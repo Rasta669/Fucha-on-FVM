@@ -6,7 +6,7 @@ const { anyValue } = require("@nomicfoundation/hardhat-chai-matchers/withArgs");
 const { expect } = require("chai");
 const { DEVELOPMENT_NETWORKS } = require("../helper-hardhat.config");
 const { network, ethers } = require("hardhat");
-const { BigNumber } = require("ethers");
+// const { BigNumber } = require("ethers");
 let tokenUris = ['ipfs://QmaVFyGCGvLvJtrXUjgyaDqAKqV877wtjajjS4BzoVeRXn',
   'ipfs://QmVTRSQ65pfautTg5HpCP1zHKAjuUpALoCAxMvppCcrghQ',
   'ipfs://QmNZtAmuXfyQsbANCiqBJtrR2Vp4BTwFRoQH91bPthhJSQ',
@@ -86,8 +86,8 @@ else {
         const finalbalance = initialbalance + mintFee;
         expect(await ethers.provider.getBalance(fucha.address)).to.equal(finalbalance);
       })
-      describe("Events", function () {
-        it("Should emit an event on withdrawals", async function () {
+      describe("MintingEvent", function () {
+        it("Should emit an event upon minting", async function () {
           const { fucha, mintFee } = await loadFixture(
             deployFuchaNft
           );
@@ -177,6 +177,19 @@ else {
         await fucha.withdraw(amount, otherAccount.address);
         const assumednetsum = initialbalance - (mintFee / 2);
         expect(await ethers.provider.getBalance(fucha.address)).to.equal(assumednetsum);
+      });
+      describe("WithdrawalEvent", function () {
+        it("Should emit an event upon withdraw", async function () {
+          const { fucha, mintFee, otherAccount } = await loadFixture(
+            deployFuchaNft
+          );
+          const amount = (mintFee / 2);
+          // const tokenid = await fucha.getRecentTokenId()
+          // const breed = await fucha.tokenIdToBreed(tokenid)
+          await (fucha.createNft(1, { value: mintFee }))
+          await expect(fucha.withdraw(amount, otherAccount.address)).to.emit(fucha, "amountWithdrawn")
+          // .withArgs(breed, anyValue); // We accept any value as `when` arg
+        });
       });
     });
   });
