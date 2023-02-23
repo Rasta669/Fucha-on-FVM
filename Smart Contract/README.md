@@ -26,7 +26,7 @@ or
 npm intsall
 ```
 
-To obtain a Filecoin-related address (t4). see [this link] (https://github.com/filecoin-project/testnet-hyperspace) for instructions on linking your ETH address to Filecoin and accessing faucets for testnet testing. Set the `PRIVATE_KEY` in `.env`.
+To obtain a Filecoin-related address (t4). see [this link](https://github.com/filecoin-project/testnet-hyperspace) for instructions on linking your ETH address to Filecoin and accessing faucets for testnet testing. Set the `PRIVATE_KEY` in `.env`.
 
 To check your ETH equivalent t4 address, run the following command:
 
