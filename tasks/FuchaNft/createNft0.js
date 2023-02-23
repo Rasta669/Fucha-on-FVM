@@ -18,19 +18,19 @@ task("create-nft0", "mints fuchanft of breed fuchaHippo").addParam("contract", "
         wallet = new ethers.Wallet(network.config.accounts[0], ethers.provider)
 
         //create a SimpleCoin contract factory
-        const fucha_ = await ethers.getContractFactory("FuchaNft", wallet)
+        const fucha_ = await ethers.getContractFactory("FuchaNft", wallet.address)
         //create a SimpleCoin contract instance 
         //this is what you will call to interact with the deployed contract
         const fucha = await fucha_.attach(contractAddr)
         const fee = await fucha.getMintFee()
-        console.log("Minting fuchanft from collection:", contractAddr, "to address", wallet)
+        console.log("Minting fuchanft from collection:", contractAddr, "to address", wallet.address)
 
         //send transaction to call the sendCoin() method
         const transaction = await fucha.createNft(0, { value: fee.toString() })
         await transaction.wait()
         let Id = await fucha.tokenCounter() - 1
         let breed = await fucha.tokenIdToBreed(Id)
-        console.log("You minted FuchaNft of breed", breed)
+        console.log("You minted FuchaNft of breed", breed, "of id", Id)
         // Setting tokenUri
         console.log("Setting tokenUri of", breed)
         const uri_tx = await fucha.setTokenUri(Id, tokenUris[0])

@@ -1,4 +1,4 @@
-const { networkConfig, DEVELOPMENT_NETWORKS } = require("../helper-hardhat.config")
+const { networkConfig, DEVELOPMENT_NETWORKS, tokenUris } = require("../helper-hardhat.config")
 const { ethers, network } = require("hardhat")
 const { networks } = require("../hardhat.config")
 
@@ -21,6 +21,12 @@ module.exports = async ({ deployments, getNamedAccounts }) => {
         const Id = await fucha.tokenCounter() - 1
         const breed = await fucha.tokenIdToBreed(Id)
         log("Created fuchaNft of breed:", breed)
+        log("---------------------------------")
+        log("Setting the tokenUri of ", breed)
+        let uri = tokenUris[breedIndex]
+        await fucha.setTokenUri(Id, uri)
+        let set_uri = await fucha.tokenURI(Id)
+        log("Yeay the token uri of ", breed, "is ", set_uri)
     }
 
 
