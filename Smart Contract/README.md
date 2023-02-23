@@ -26,7 +26,7 @@ or
 npm install
 ```
 
-To obtain a Filecoin-related address (t4). see [this link](https://github.com/filecoin-project/testnet-hyperspace) for instructions on linking your ETH address to Filecoin and accessing faucets for testnet testing. Set the `PRIVATE_KEY` in `.env`.
+To obtain a Filecoin-related address (t4). see [this link](https://github.com/filecoin-project/testnet-hyperspace) for instructions on linking your ETH address to Filecoin and accessing faucets for testnet testing. Set the `PRIVATE_KEY` in `.env` as shown in `.envexample`.
 
 To check your ETH equivalent t4 address, run the following command:
 
@@ -48,7 +48,7 @@ To deploy `fuchaContract` to the Hyperspace testnet, run the followinng command:
 ```
 hh deploy --tags fucha --network hyperspace
 ```
-To upload images to Pinata, set the `PINATA_API_SECRET` and `PINATA_API_KEY` variables as obtained from Pinata by logging in and generating new keys. Set `UPLOAD_TO_PINATA` to true and run the command:
+To upload images to Pinata, set the `PINATA_API_SECRET` and `PINATA_API_KEY` variables as obtained from Pinata by logging in and generating new keys. Set `UPLOAD_TO_PINATA` to true as shown in `.envexample`, and run the command:
 
 ```
 hh deploy --tags url
