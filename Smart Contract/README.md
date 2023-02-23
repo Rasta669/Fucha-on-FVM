@@ -1,4 +1,4 @@
-# HardHat Project
+# FuchaBin Nft Project
 This project descibes the functionalities of the FuchaBin NFT project, including minting, setting the token URL, storing images to Pinata (IPFS), and running tests. It comes with the NFT Contract, a contract test, and a script that deploys and interacts with the contratc. The project is tested on the hardhat development network and the hyperspace testnet (FVM).
 
 ## Getting Started
@@ -23,7 +23,7 @@ yarn install
 or
 
 ```
-npm intsall
+npm install
 ```
 
 To obtain a Filecoin-related address (t4). see [this link](https://github.com/filecoin-project/testnet-hyperspace) for instructions on linking your ETH address to Filecoin and accessing faucets for testnet testing. Set the `PRIVATE_KEY` in `.env`.
@@ -42,6 +42,7 @@ To deploy `fuchaContract` on the Hardhat dev network, run the following command:
 hh deploy --tags fucha
 ```
 
+#### Deploying on FVM
 To deploy `fuchaContract` to the Hyperspace testnet, run the followinng command:
 
 ```
@@ -50,13 +51,13 @@ hh deploy --tags fucha --network hyperspace
 To upload images to Pinata, set the `PINATA_API_SECRET` and `PINATA_API_KEY` variables as obtained from Pinata by logging in and generating new keys. Set `UPLOAD_TO_PINATA` to true and run the command:
 
 ```
-hh deploy --tags --url
+hh deploy --tags url
 ```
 This will return IPFS URLs on the terminal, which can be viewed on Pinata [here](https:app.pinata.cloud/pinmanager#).
 
 ### Minting the NFT
 
-Minting on the local network is written in **deploy/02.mint.js**. To change the breed to mint, simply change the breedIndex parameter to suit your breed type. 
+Minting on the local network is written in **deploy/03.mint.js**. To change the breed to mint, simply change the breedIndex parameter to suit your breed type. 
 To mint on the local network, simply run the following command:
 
 ```
@@ -73,9 +74,9 @@ If you run the command:
 npx hardhat
 ``` 
 
-You will get a list of tasks. You may have spotted `create-nft0`, `create-nft1`, `create-nft2`, and `create-nft3`, which explain the subsequent breeds you can mint by running those commands. To mint an FuchaBin NFT from the deployed collection, your wallet must have more than **0.9 tFil** to mint an NFT. Also, the wallet's private key to mint to must be added to `.env`. 
+You will get a list of tasks. You may have spotted `create-nft0`, `create-nft1`, `create-nft2`, and `create-nft3`, which explain the subsequent breeds you can mint by running those commands. To mint a FuchaBin NFT from the deployed collection, your wallet must have more than **0.9 tFil** to mint an NFT, of which is customizable from the helper-hardhat.config. Also, the wallet's private key to mint to must be added to `.env` as shown in `.envexample` 
 
-For example, to mint an `fuchaHippo` breed to the deployed collection at `contractAddr`, run the following command:
+For example, to mint a `fuchaHippo` breed to the deployed collection at `contractAddr`, run the following command:
 
 ```
 npx hardhat create-nft0 --contract contractAddr --network hyperspace
