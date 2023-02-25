@@ -53,7 +53,7 @@ To upload images to Pinata, set the `PINATA_API_SECRET` and `PINATA_API_KEY` var
 ```
 hh deploy --tags url
 ```
-This will return IPFS URLs on the terminal, which can be viewed on Pinata [here](https:app.pinata.cloud/pinmanager#).
+This will return IPFS URLs on the terminal, which can be viewed on Pinata [here](https://app.pinata.cloud/pinmanager#).
 
 ### Minting the NFT
 
