@@ -16,7 +16,7 @@ return (
         through information, education and technology.
         Our objective is to sustainably empower our communities,
         while also encouraging integration in the urban space, through innovative initiatives.</p>
-        <Link to= "/learnmore" className='px-8 py-3 mt-3 text-white bg-[#f9004d]  rounded-md font-semibold'>
+        <Link to= "/learnmore" className='px-6 py-2 rounded-md bg-[#f9004d] text-white font-bold hover:bg-red-600 transition-colors duration-300'>
         Learn More
         </Link>
         </div>

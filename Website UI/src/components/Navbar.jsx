@@ -21,22 +21,21 @@ const Navbar = () => {
                             <a href="/">Home</a>
                         </li>
                         <li>
+                            <a href="#ourstory">Our Story</a>
+                        </li>
+                        <li>
                             <a href="#whoweare">Who We are</a>
                         </li>
                         <li>
                             <a href="#impact">Impact</a>
                         </li> 
-                      
                          <li>
-                            <a href="#marketplace">Marketplace</a>
+                            <a href="#marketplace">Our NFTs</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
                 </ul>
-            </div>
-            <div className='hidden md:flex pr-4'>
-                    <button className='px-8 py-3 text-white bg-[#f9004d]  rounded-md font-semibold'>Mint</button>
             </div>
 
             {/* hamburger menu */}
@@ -54,20 +53,20 @@ const Navbar = () => {
                             <a href="/">Home</a>
                         </li>
                         <li className='border-b-1 w-full text-white'>
+                            <a href="#ourstory">Our Story</a>
+                        </li>
+                        <li className='border-b-1 w-full text-white'>
                             <a href="#whoweare">Who we are</a>
                         </li>
                         <li className='border-b-1 w-full text-white'>
                             <a href="#impact">Impact</a>
                         </li>
                         <li className='border-b-1 w-full text-white'>
-                            <a href="#market">MarketPlace</a>
+                            <a href="#market">Our NFTs</a>
                         </li>
                         <li className='border-b-1 w-full text-white'>
                             <a href="#contact">Contact</a>
                         </li>
-                        <div className='flex flex-col my-4 gap-4'>
-                        <button className='px-8 py-3 text-white bg-[#f9004d]  rounded-md font-semibold'>Mint</button>
-                        </div>
                 </ul>
     </div>
   )
