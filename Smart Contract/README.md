@@ -105,11 +105,11 @@ npx hardhat coverage
 
 ### Images and metadata on IPFS:
 You can find the uploaded content on the links below:
-[FuchaNyati](http://bafybeierbti22pcnlbwduedquxqxbqhnodz66jhpkpk3trmyqvwaw7vz3i.ipfs.localhost:8080/).
+1.[FuchaNyati](http://bafybeierbti22pcnlbwduedquxqxbqhnodz66jhpkpk3trmyqvwaw7vz3i.ipfs.localhost:8080/)
 [FuchaNyati metadata](http://bafybeidjxxpgqxvudfgj4b2ww6v4a2wy7uj6daoerms3rm4n6zzekx3gtm.ipfs.localhost:8080/).
-[FuchaSimba](http://bafybeieevk4om5d56w3ecxc37ibzkaq2k7qxcpi5rc2hwfjfbafhfjziia.ipfs.localhost:8080/).
+2.[FuchaSimba](http://bafybeieevk4om5d56w3ecxc37ibzkaq2k7qxcpi5rc2hwfjfbafhfjziia.ipfs.localhost:8080/)
 [FuchaSimba metadata](http://bafybeichacaktg6gqlcqveupd6fbviy7ycqgztburioqotirgq5bhsx6ma.ipfs.localhost:8080/).
-[FuchaHippo](http://bafybeihs736azeceinjbrlt6anbgztyojwkdv26vzbin4fvvudgheq7goq.ipfs.localhost:8080/).
+3.[FuchaHippo](http://bafybeihs736azeceinjbrlt6anbgztyojwkdv26vzbin4fvvudgheq7goq.ipfs.localhost:8080/)
 [FuchaHippo metadata](http://bafybeifuqdbhvdcmjqcgahk7bmkp4b5yfakzywra2prpki5iw3h2zfl44e.ipfs.localhost:8080/).
-[FuchaRhino](http://bafybeigexf4fuqgjduh42h2g37cdcpdyfsj3d6of4mzioj6ksrkwzu6m3m.ipfs.localhost:8080/).
+4. [FuchaRhino](http://bafybeigexf4fuqgjduh42h2g37cdcpdyfsj3d6of4mzioj6ksrkwzu6m3m.ipfs.localhost:8080/)
 [FuchaRhino metadata](http://bafybeiadmpcqedntpbwiv3abofbssk3zknrr5ukjnfo34tkocyc5265liu.ipfs.localhost:8080/).
