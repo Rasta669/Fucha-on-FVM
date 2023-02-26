@@ -82,6 +82,12 @@ For example, to mint a `fuchaHippo` breed to the deployed collection at `contrac
 npx hardhat create-nft0 --contract contractAddr --network hyperspace
 ```
 
+Theres also a mint script on scripts/mint.js which has a mintNft fx with two parameters; the address of the deployed FuchaBin collection and breedIndex whicha are customizable, to mint FuchaBIn on hyperspace testnet using this script simply run:
+
+```
+npx hardhat run scripts/mint.js --network hyperspace
+``
+
 ### Testing
 
 To run tests, enter the following command:
