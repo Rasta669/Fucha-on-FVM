@@ -1,0 +1,6 @@
+PRIVATE_KEY = ''
+PINATA_API_KEY = ''
+PINATA_API_SECRET = ''
+UPLOAD_TO_PINATA = 'true'
+
+
