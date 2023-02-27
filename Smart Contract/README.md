@@ -1,38 +1,55 @@
 # FuchaBin Nft Project
-This project descibes the functionalities of the FuchaBin NFT project, including minting, setting the token URI, storing images to Pinata (IPFS), and running tests. It comes with the NFT Contract, a contract test, and a script that deploys and interacts with the contratc. The project is tested on the hardhat development network and the hyperspace testnet (FVM).
+This project describes the functionalities of the FuchaBin NFT project, including minting, setting the token URI, storing images to Pinata (IPFS), and running tests. It comes with the NFT Contract, a contract test, and a script that deploys and interacts with the contratct. The project is tested on the hardhat development network and the hyperspace testnet (FVM).
+
+## Technologies Used
+* HardHat
+* JavaScript
+* Solidity
+* Pinata
+* Ethers.Js
 
 ## Getting Started
 ### Requirements
-* Node.js
-* Npm or Yarn
-* Git
+* Node.Js
 
 ### QuickStart
-To clone the repo, run the following command in your shell:
+1. Open your terminal and navigate to the directory where you want to clone the repository. 
+2. Run the following command to clone the repository.
 
 ```bash
 git clone https://github.com/Rasta669/Fucha-on-FVM.git
 ```
 
-To install dependencies and packages, run either of the following commands:
+3. Once the repository has been cloned, navigate to the project directory using the following command.
+
+```bash
+cd Fucha-on-FVM/Smart\ Contract/
+```
+
+4. Install dependencies and packages, by running either of the following commands:
 
 ```
 yarn install
 ```
 
-or
+            or
 
 ```
 npm install
 ```
 
-To obtain a Filecoin-related address (t4). see [this link](https://github.com/filecoin-project/testnet-hyperspace) for instructions on linking your ETH address to Filecoin and accessing faucets for testnet testing. Set the `PRIVATE_KEY` in `.env` as shown in `.envexample`.
+### Getting A FileCoin Related Address
 
-To check your ETH equivalent t4 address, run the following command:
+1.  To obtain a Filecoin-related address (t4). see [this link](https://github.com/filecoin-project/testnet-hyperspace) for instructions on linking your ETH address to Filecoin and accessing faucets for testnet testing.
 
-```
-npx hardhat get-address
-```
+
+2.  Set the `PRIVATE_KEY` in `.env` as shown in `.envexample`.
+
+3.  To check your ETH equivalent t4 address, run the following command:
+
+        ```
+            npx hardhat get-address
+        ```
 
 ### Deploying FuchaBins
 
