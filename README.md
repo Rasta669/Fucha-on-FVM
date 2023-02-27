@@ -1,18 +1,28 @@
-# FUCHA-BINS OFFICIAL DOCUMENTATION
-## WHAT WE DO
-### REGENERATING CITY SPACES FROM PLASTIC WASTE
-We plan to address the issue of plastic waste by organizing our first community project assembling and designing sustainable trash **smart bins** for the recycling of PLASTIC. **FUCHA** bins, an abbreviation for **Fedha Uchafu**, meaning **lucrative waste management** aims to transform plastic waste collected from different areas into eco-bricks for sustainable spaces. We will start with a pilot from University of Dar-es-salaam areas for starters, then move to other areas as we progress.
+# Fucha-Bins: Regenerating City Spaces from Plastic Waste
 
-## OUR BELIEF
-We believe this initiative will help reduce plastic waste in our environment and get us on our way to contributing towards our SDGs **8**, **11** & **13**. This will also act as a source of employment to artists and as tourism attraction. This is because of the artistic dust bins placed all over the city. 
+## What We Do
+
+We aim to address the issue of plastic waste by organizing our first community project to assemble and design sustainable trash **Smart Bins** for the recycling of plastic. **Fucha** bins, an abbreviation for **Fedha Uchafu**, meaning **lucrative waste management** aims to transform plastic waste collected from different areas into eco-bricks for sustainable spaces. We will start with a pilot project in the University of Dar-es-salaam area, and expand to other areas as we progress.
+
+## Our Belief
+
+We believe this initiative will help reduce plastic waste in our environment and get us on our way to contributing towards our **Sustainable Development Goals (SDG) 8, 11 & 13**. This will also act as a source of employment to artists and as tourism attraction. This is because of the artistic dust bins placed all over the city. 
 
 The end goal is for the plastic collected to be recycled into regenerative products, say build classrooms/ shelters, chairs or anything that can be recycled and made out of plastic for a greater cause. Fucha Bins provides the mechanisms for it to happen.
 
-## BUSINESS PROCESS
+## Business Process
 
-* FUCHA Bins physical designs **>>>** 3D model converted to NFT for operations & governance **>>>** collection of plastic **>>>** data is measured, recorded and valued on IPFS **>>>** earn plastic credits on chain **>>>** utility recyclables (e.g. plastic furniture, Eco-bricks).
+1. Fucha Bins Physical Designs.
+2. 3D model converted to NFT for operations & governance.
+3. Collection Plastic.
+4. Data is measured and recorded on IPFS.
+5. Earn Plastic Credits on Chain.
+6. Utility recyclables (e.g. Plastic Furniture, and Eco-bricks).
+
+
      ### STARTING POINT
      * The University students organize from 5-10 **Go-green champions** who will oversee the stationing of the bins, the recycling process, learn about        plastic & carbon credits incentives, NFT utility and then create a sustainable subDAO for the project in the long run, to show the Blockchain use        case. 
+
 ## Value Proposition
      
    **Companies**
@@ -30,3 +40,25 @@ The end goal is for the plastic collected to be recycled into regenerative prod
 * Opportunities to earn more from creative work through NFT market.
 * Education of practical applications of Web 3 technology in artistic field.
 * Digital representation of physical art in the metaverse to counteract the ephemeral of public art.
+
+**Join Fucha-Bins in regenerating city spaces from plastic waste and making the world a better place.**
+
+## Contact Us
+
+If you have any questions, comments, or concerns, please don't hesitate to contact us at:
+1. 
+     - Name    : Buyegi, Joseph M.
+     - Email   : <buyegiminzi@gmail.com>
+     - Twitter : @bujo_rasta
+
+2. 
+     - Name    : Nyumba, Karim M.
+     - Email   : <nyumba29@gmail.com>
+     - Twitter : @keemz643
+
+3. 
+     - Name    : Mwanga, Kevin R.
+     - Email   : <kevinmwanga4@gmail.com>
+     [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/krcryptonian.svg?style=social&label=Follow%20%40krcryptonian)](https://twitter.com/krcryptonian)
+
+
