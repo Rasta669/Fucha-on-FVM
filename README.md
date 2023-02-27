@@ -46,6 +46,7 @@ The end goal is for the plastic collected to be recycled into regenerative prod
 ## Contact Us
 
 If you have any questions, comments, or concerns, please don't hesitate to contact us at:
+
 1. 
      - Name    : Buyegi, Joseph M.
      - Email   : <buyegiminzi@gmail.com>
@@ -59,6 +60,7 @@ If you have any questions, comments, or concerns, please don't hesitate to conta
 3. 
      - Name    : Mwanga, Kevin R.
      - Email   : <kevinmwanga4@gmail.com>
+    
      [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/krcryptonian.svg?style=social&label=Follow%20%40krcryptonian)](https://twitter.com/krcryptonian)
 
 
