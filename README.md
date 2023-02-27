@@ -48,11 +48,13 @@ If you have any questions, comments, or concerns, please don't hesitate to conta
 1. 
      - Name    : Buyegi, Joseph M.
      - Email   : <buyegiminzi@gmail.com>
+     - [Github Link](https://github.com/Rasta669) 
      - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bujo_rasta.svg?style=social&label=Follow%20%40bujo_rasta)](https://twitter.com/bujo_rasta)
 
 2. 
      - Name    : Nyumba, Karim M.
      - Email   : <nyumba29@gmail.com>
+     - [Github Link](https://github.com/Kareem643)
      - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/keemz643.svg?style=social&label=Follow%20%40keemz643)](https://twitter.com/keemz643)
 
 3. 
