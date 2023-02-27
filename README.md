@@ -41,7 +41,9 @@ The end goal is for the plastic collected to be recycled into regenerative prod
 * Education of practical applications of Web 3 technology in artistic field.
 * Digital representation of physical art in the metaverse to counteract the ephemeral of public art.
 
+
 **Join Fucha-Bins in regenerating city spaces from plastic waste and making the world a better place.**
+
 
 ## Contact Us
 
