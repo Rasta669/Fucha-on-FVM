@@ -50,17 +50,16 @@ If you have any questions, comments, or concerns, please don't hesitate to conta
 1. 
      - Name    : Buyegi, Joseph M.
      - Email   : <buyegiminzi@gmail.com>
-     - Twitter : @bujo_rasta
+     - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bujo_rasta.svg?style=social&label=Follow%20%40bujo_rasta)](https://twitter.com/bujo_rasta)
 
 2. 
      - Name    : Nyumba, Karim M.
      - Email   : <nyumba29@gmail.com>
-     - Twitter : @keemz643
+     - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/keemz643.svg?style=social&label=Follow%20%40keemz643)](https://twitter.com/keemz643)
 
 3. 
      - Name    : Mwanga, Kevin R.
      - Email   : <kevinmwanga4@gmail.com>
-    
-     [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/krcryptonian.svg?style=social&label=Follow%20%40krcryptonian)](https://twitter.com/krcryptonian)
+     - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/krcryptonian.svg?style=social&label=Follow%20%40krcryptonian)](https://twitter.com/krcryptonian)
 
 
