@@ -19,10 +19,6 @@ The end goal is for the plastic collected to be recycled into regenerative prod
 5. Earn Plastic Credits on Chain.
 6. Utility recyclables (e.g. Plastic Furniture, and Eco-bricks).
 
-
-     ### STARTING POINT
-     * The University students organize from 5-10 **Go-green champions** who will oversee the stationing of the bins, the recycling process, learn about        plastic & carbon credits incentives, NFT utility and then create a sustainable subDAO for the project in the long run, to show the Blockchain use        case. 
-
 ## Value Proposition
      
    **Companies**
