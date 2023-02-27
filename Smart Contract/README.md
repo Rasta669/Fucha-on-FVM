@@ -46,7 +46,7 @@ npm install
 
 3.  To check your ETH equivalent t4 address, run the following command:
 
-```
+```hardhat
 npx hardhat get-address
 ```
 
@@ -54,7 +54,7 @@ npx hardhat get-address
 
 * To deploy `fuchaContract` on the Hardhat dev network, run the following command:
 
-```
+```hardhat
 hh deploy --tags fucha
 ```
 
