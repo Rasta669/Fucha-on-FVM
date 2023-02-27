@@ -3,11 +3,11 @@ import fuchaHippo from '../assets/fuchaHippo.jpg';
 import fuchaRhino from '../assets/fuchaRhino.jpg';
 import fuchaSimba from '../assets/fuchaSimba.jpg';
 import fuchaNyati from '../assets/fuchaNyati.jpg';
-//import { mintNFt } from '../../../Smart Contract/scripts/mint';
+// import { mintNFt } from '../../../Smart Contract/scripts/mint';
 import {Contract, ethers} from "ethers"
 import { ABI,contract_address } from '../../constants';
 
-
+const fee = 92;
 const pictures = [
   { name: 'Fucha Hippo', price: '0.9tFil', src: fuchaHippo },
   { name: 'Fucha Rhino', price: '0.9tFil', src: fuchaRhino },
@@ -26,23 +26,14 @@ const Marketplace = () => {
     setHoveredIndex(null);
   };
 
-
-
-
-
 const makeNft = async (index) =>{
 
   try {
     const provider = new ethers.provider.web3Provider (window.ethereum)
     const signer = await provider.getSigner()
     const nftContract = new Contract(ABI,signer, contract_address)
+    await nftContract.createNft(index, { value: fee.toString() })
     // await mintNFt()
-
-    
-
-
-
-    
   } catch (error) {
     console.log(error)
     

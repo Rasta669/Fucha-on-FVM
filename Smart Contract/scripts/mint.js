@@ -1,6 +1,6 @@
-import  { networkConfig, DEVELOPMENT_NETWORKS, tokenUris } from "../helper-hardhat.config"
-import { ethers, network } from "hardhat"
-import { networks } from "../hardhat.config"
+const { networkConfig, DEVELOPMENT_NETWORKS, tokenUris } = require("../helper-hardhat.config")
+const { ethers, network } = require("hardhat")
+// import { networks } from "../hardhat.config"
 
 const PRIVATE_KEY = network.config.accounts[0]
 const chainId = network.config.chainId
@@ -8,7 +8,7 @@ const payValue = 10000000001
 const breedIndex = 2
 
 
-export const mintNFt = async (contractAddr, breedIndex) => {
+const mintNFt = async function (contractAddr, breedIndex){
     if (!DEVELOPMENT_NETWORKS.includes(network.name)) {
         let tokenUris = ['ipfs://QmaVFyGCGvLvJtrXUjgyaDqAKqV877wtjajjS4BzoVeRXn',
             'ipfs://QmVTRSQ65pfautTg5HpCP1zHKAjuUpALoCAxMvppCcrghQ',
@@ -45,5 +45,7 @@ mintNFt("0xEe291e4eB901a444C6c73839f1bdD4046a375B99", 3).then(() => process.exit
     process.exit(1)
 })
 
+// module.exports = {mintNFt}
+ export {mintNFt}
 // module.exports.tags = ["all", "local-mint"]
 // // module.exports.dependencies = ["fucha"]

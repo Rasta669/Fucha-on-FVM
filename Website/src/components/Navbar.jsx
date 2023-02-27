@@ -42,10 +42,12 @@ const Navbar = () => {
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
-                        <button onClick={connectWallet} className='px-6 py-2 rounded-md bg-[#f9004d] text-white font-bold hover:bg-red-600 transition-colors duration-300'>
-        Connect to Market
-        </button>
                 </ul>
+                <div className="flex items-center">
+                        <button onClick={connectWallet} className='w-full px-6 py-2 rounded-md bg-[#f9004d] text-white font-bold hover:bg-red-600 transition-colors duration-300'>
+                            Connect to Wallet
+                        </button>
+                    </div>
             </div>
 
             {/* hamburger menu */}
