@@ -44,4 +44,3 @@ npm run dev
 
 6. Open your browser and navigate to `http://localhost:port` to view the website.
 
-## Contributing
