@@ -1,5 +1,5 @@
 # FuchaBin Nft Project
-This project descibes the functionalities of the FuchaBin NFT project, including minting, setting the token URL, storing images to Pinata (IPFS), and running tests. It comes with the NFT Contract, a contract test, and a script that deploys and interacts with the contratc. The project is tested on the hardhat development network and the hyperspace testnet (FVM).
+This project descibes the functionalities of the FuchaBin NFT project, including minting, setting the token URI, storing images to Pinata (IPFS), and running tests. It comes with the NFT Contract, a contract test, and a script that deploys and interacts with the contratc. The project is tested on the hardhat development network and the hyperspace testnet (FVM).
 
 ## Getting Started
 ### Requirements
@@ -104,16 +104,16 @@ npx hardhat coverage
 ```
 
 ### Images and metadata on IPFS:
+
 You can find the uploaded content on the links below:
-* [FuchaNyati](http://bafybeierbti22pcnlbwduedquxqxbqhnodz66jhpkpk3trmyqvwaw7vz3i.ipfs.localhost:8080/)
 
-[FuchaNyati metadata](http://bafybeidjxxpgqxvudfgj4b2ww6v4a2wy7uj6daoerms3rm4n6zzekx3gtm.ipfs.localhost:8080/).
-* [FuchaSimba](http://bafybeieevk4om5d56w3ecxc37ibzkaq2k7qxcpi5rc2hwfjfbafhfjziia.ipfs.localhost:8080/)
+* [FuchaNyati](https://ipfs.io/ipfs/QmY6sAQQJaUTHYjp24wHRaG3t27eVhKkb7HF2HioBL2RJ9?filename=fuchaNyati.jpg), [FuchaNyati metadata](https://ipfs.io/ipfs/QmZYRrYPkNvZioeoAS3aq82rCoe5Gjc9xVmoaKG7BnAc91?filename=fuchaNyati.json).
 
-[FuchaSimba metadata](http://bafybeichacaktg6gqlcqveupd6fbviy7ycqgztburioqotirgq5bhsx6ma.ipfs.localhost:8080/).
-* [FuchaHippo](http://bafybeihs736azeceinjbrlt6anbgztyojwkdv26vzbin4fvvudgheq7goq.ipfs.localhost:8080/)
 
-[FuchaHippo metadata](http://bafybeifuqdbhvdcmjqcgahk7bmkp4b5yfakzywra2prpki5iw3h2zfl44e.ipfs.localhost:8080/).
-* [FuchaRhino](http://bafybeigexf4fuqgjduh42h2g37cdcpdyfsj3d6of4mzioj6ksrkwzu6m3m.ipfs.localhost:8080/)
+* [FuchaSimba](https://ipfs.io/ipfs/QmXGXWivnCKC4A55UKgXAQSJAvneaAze2KKtVbmhPW62Hd?filename=fuchaSimba.jpg), [FuchaSimba metadata](https://ipfs.io/ipfs/QmVxJqc9owsrNvpPjqkCAhWEoEyqZNcQnt8tZFeh4BB94q?filename=fuchaSimba.json).
 
-[FuchaRhino metadata](http://bafybeiadmpcqedntpbwiv3abofbssk3zknrr5ukjnfo34tkocyc5265liu.ipfs.localhost:8080/).
+
+* [FuchaHippo](https://ipfs.io/ipfs/QmehCt7S8WXeA6srd9nukuZaVyeRJ4K7ARLwu9qjuztoeK?filename=fuchaHippo.jpg), [FuchaHippo metadata](https://ipfs.io/ipfs/QmeSbkumWmf3Wsj4ehaLuFPDBupm1e9Ws761wWhpUgxpSE?filename=fuchaHippo.json).
+
+
+* [FuchaRhino](https://ipfs.io/ipfs/QmbaaebZBR5w16rQqdAkuTKNtmF33S66jBmVKmiEVPy8sk?filename=fuchaRhino.jpg), [FuchaRhino metadata](https://ipfs.io/ipfs/QmTjHH2PbmjZ1XMeyVS3uwnJkxReC3ns6367gaU7f9LH6Z?filename=fuchaRhino.json).
