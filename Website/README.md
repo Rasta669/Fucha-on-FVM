@@ -32,7 +32,7 @@ cd Website
 
 4. Install the dependencies by running the following command:
 
-]```
+```
 npm install
 ```
 
