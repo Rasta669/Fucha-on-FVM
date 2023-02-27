@@ -129,9 +129,6 @@ hh test
 npx hardhat coverage
 ```
 
-* You can check the deployed contract on FVM (Hyperspace Testnet) using the contract Address : 
-**t410fl663emkwpcx6zm3h6aznsp3ef5sbqcvdf5mfrna** on any [Filecoin Explorer](https://hyperspace.filscan.io/address/general?address=t410fl663emkwpcx6zm3h6aznsp3ef5sbqcvdf5mfrna)
-
 ### Images and metadata on IPFS:
 
 You can find the uploaded content on the links below:
@@ -146,3 +143,8 @@ You can find the uploaded content on the links below:
 
 
 * [FuchaRhino](https://ipfs.io/ipfs/QmbaaebZBR5w16rQqdAkuTKNtmF33S66jBmVKmiEVPy8sk?filename=fuchaRhino.jpg), [FuchaRhino metadata](https://ipfs.io/ipfs/QmTjHH2PbmjZ1XMeyVS3uwnJkxReC3ns6367gaU7f9LH6Z?filename=fuchaRhino.json).
+
+### Conclusion
+
+* You can check the deployed contract on FVM (Hyperspace Testnet) using the contract Address : 
+**t410fl663emkwpcx6zm3h6aznsp3ef5sbqcvdf5mfrna** on any [Filecoin Explorer](https://hyperspace.filscan.io/address/general?address=t410fl663emkwpcx6zm3h6aznsp3ef5sbqcvdf5mfrna)
